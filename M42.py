@@ -1,0 +1,21 @@
+n=int(input())
+exp=input()
+a=exp.split()
+op='+-*/'
+n1=[]
+for i in a:
+    if(i.isdigit()):
+        n1.append(int(i))
+    else:
+        b=n1.pop()
+        a=n1.pop()
+        if(i=='+'):
+            new=a+b
+        elif(i=='-'):
+            new=a-b
+        elif(i=='*'):
+            new=a*b
+        elif(i=='/'):
+            new=a/b
+        n1.append(new)
+print(int(n1[0]))

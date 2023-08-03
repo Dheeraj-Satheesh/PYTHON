@@ -1,0 +1,13 @@
+*.exe
+/.vscode
+*.anaconda
+*.ipython
+*.spyder-py3
+*.matplotlib
+*cdssetup
+*m
+*N
+*.gitconfig
+*.bash_history
+*.npmrc
+
